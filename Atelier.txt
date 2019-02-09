@@ -1,0 +1,54 @@
+# Atelier Git-Hub
+
+## Principales commandes
+
+- **ls** : liste des fichiers
+- **ls -a** : montrer aussi les dossiers cachés.
+
+- **cd** : Change directory
+- **mkdir** : Make directory (créer un fichier)
+- **mv** : move?
+- **cp** : change pathway ?
+- **rm** : Remove ?
+
+- **vim** : ???
+
+### git
+- **init** : Crée un nouveau reposetory local.
+
+- **add** : Passer du working directory au staging area.
+	- **add -A** : Nouveaux, modifié et supprimé (All)
+	- **add .** : Nouveaux, modifiés, mais pas supprimés
+	- **add -u** : Modifiés, supprimés, mais pas nouveaux.
+
+- **commit** : passer du "staging area" au "local reposetory"
+- **push** : envoyer le "local reposetory" au "remote reposetory" (serveur)
+
+- **checkout** : Se déplacer dans le reposetory
+- **checkout -b [nom de la branch]** : Crée une nouvelle branche et se positionne à l'intérieur.
+- **branch** : crée une nouvelle branche...ne semble pas fonctionner tout le temps...
+
+- **diff** : Voir les changements effectués dans le working directory
+- **diff --stages** : voir les changements dans le staging area
+- **diff <commit>^1** : liste des éléments "commited" dans le "local reposetory"
+- **log** : Voir l'historique des commits. 
+
+- **fetch** : utilité ?
+- Différence entre fetch et **pull** ? Pull inclus un fetch et fait un merge sur le working directory en plus.
+
+Pour changer de branche, il faut utiliser git checkout "nom de la branche"
+
+- **merge** : fusionner la branche ciblée avec la branche courante.
+
+tab -> compléter la phrase
+
+## Définitions
+
+master : Branche principale (Par défaut)
+Branch : autres branches (en production) -> Lorsque la branche est terminée et qu'elle est approuvée, elle vient se fusionner avec le Master.
+Head ?????
+
+
+
+
+
