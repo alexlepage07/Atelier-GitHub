@@ -31,6 +31,7 @@
 - **diff** : Voir les changements effectués dans le working directory
 - **diff --stages** : voir les changements dans le staging area
 - **diff <commit>^1** : liste des éléments "commited" dans le "local reposetory"
+- **log** : Voir l'historique des commits. 
 
 - **fetch** : utilité ?
 - Différence entre fetch et **pull** ? Pull inclus un fetch et fait un merge sur le working directory en plus.
