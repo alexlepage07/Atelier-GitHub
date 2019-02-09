@@ -1,0 +1,23 @@
+# Atelier Git-Hub
+
+## Principales commandes
+
+- ls : liste des fichiers
+- cd : Change directory
+- mkdir : Make directory (créer un fichier)
+- mv : move?
+- cp : change pathway ?
+- rm : Remove ?
+
+vim ???
+
+tab -> compléter la phrase
+
+## Définitions
+
+master : Branche principale (Par défaut)
+Branch : autres branches (en production) -> Lorsque la branche est terminée et qu'elle est approuvée, elle vient se fusionner avec le Master.
+Head ?????
+
+
+
